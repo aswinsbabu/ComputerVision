@@ -1,0 +1,3 @@
+- Python 3.6 is required for both Arun's and Summer Intern project codes
+- For cubesat related yaml configurations, pytorch-lightning 1.2.X is required, whereas for soyuz related yaml configurations, pytorch-lightning 1.1.2 is required for backward compatibility.
+- Opencv-python 4.5.5 or above is required. The version in Arun's requirements.txt maybe too old leading to exceptions. 

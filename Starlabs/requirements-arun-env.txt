@@ -1,0 +1,38 @@
+# pip install -r requirements.txt
+
+# base ----------------------------------------
+Cython
+matplotlib~=3.3.2
+numpy~=1.19.1
+opencv-python~=4.5.1.48
+Pillow~=8.1.0
+PyYAML>=5.3.1
+scipy~=1.5.2
+tensorboard~=2.4.0
+# torch==1.7.0
+# torchvision==0.8.1
+tqdm~=4.58.0
+omegaconf~=2.0.6
+albumentations~=0.4.5
+pandas~=1.1.0
+scikit-learn~=0.23.2
+hydra-core~=1.0.6
+pytorch-lightning~=1.2.0
+trimesh~=3.9.1
+typing~=3.7.4.3
+PyYAML~=5.3.1
+requests~=2.24.0
+
+# logging -------------------------------------
+# wandb
+
+# plotting ------------------------------------
+seaborn~=0.11.0
+
+# export --------------------------------------
+onnxruntime~=1.5.2
+onnx~=1.7.0
+
+# extras --------------------------------------
+thop  # FLOPS computation
+pycocotools~=2.0.2  # COCO mAP
